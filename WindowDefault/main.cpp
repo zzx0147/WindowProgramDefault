@@ -59,7 +59,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 	HDC hdc;
 	PAINTSTRUCT ps;
 	RECT rt = { 50, 50, 400, 400 };
-	switch (message) {;
+	switch (message) {
 		case WM_DESTROY:
 			PostQuitMessage(0);
 			return 0;
